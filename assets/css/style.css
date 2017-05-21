@@ -241,44 +241,6 @@ input[type=submit] {
 
 
 @media screen and (max-width: 980px) {
-	#sushi {
-		width: 100%;
-		float:left;
-		padding: 15px;
-		clear: left;
-	}
-
-	#basketball {
-		width: 100%;
-		height: 140px;
-		float:left;
-		clear: left;
-		padding: 15px;
-	}
-
-	#philosophy {
-		width: 280px;
-		height: 140px;
-		padding: 15px;
-		float:left;
-		clear:left;
-	}
-
-	#dog {
-		width: 280px;
-		height: 140px;
-		padding: 15px;
-		float: left;
-		clear: left;
-	}
-
-	#physique {
-		width: 280px;
-		height: 140px;
-		padding: 15px;
-		float: left;
-		clear: left;
-  }
 
   .container {
     width: 100%;
@@ -305,6 +267,46 @@ input[type=submit] {
     padding-bottom: 15px;
   }
 
+  .sushi {
+    width: 100%;
+    float:left;
+    padding: 15px;
+    clear: left;
+  }
+
+  .basketball {
+    width: 100%;
+    height: 140px;
+    float:left;
+    clear: left;
+    padding: 15px;
+  }
+
+  #philosophy {
+    width: 280px;
+    height: 140px;
+    padding: 15px;
+    float:left;
+    clear:left;
+  }
+
+  #dog {
+    width: 280px;
+    height: 140px;
+    padding: 15px;
+    float: left;
+    clear: left;
+  }
+
+  #physique {
+    width: 280px;
+    height: 140px;
+    padding: 15px;
+    float: left;
+    clear: left;
+  }
+
+}
 
 
 
@@ -360,4 +362,11 @@ input[type=submit] {
   .auth-image {
     width: 100%;
   }
+
+  .work {
+  width: 100%
+  height: auto;
+
+  }
+
 }

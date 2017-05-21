@@ -240,7 +240,7 @@ input[type=submit] {
 }
 
 
-@media screen and (max-width: 980px;) {
+@media screen and (max-width: 980px) {
 	#sushi {
 		width: 100%;
 		float:left;
@@ -278,4 +278,86 @@ input[type=submit] {
 		padding: 15px;
 		float: left;
 		clear: left;
+  }
+
+  .container {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .main-section{
+    width: 50%;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+
+  .sidebar {
+    width: 40%;
+    padding: 30px;
+    margin-right: 40px;
+  }
+
+  .auth-image{
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+
+
+
+@media screen and (max-width: 768px)  {
+
+  .container  {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .main-section,
+  .sidebar{
+    width: 100%;
+    }
+
+  .main-section {
+    width:100%;
+    margin-right: 10%;
+  }
+
+  .auth-image {
+    width: 40%;
+  }
+
+  .sidebar {
+    width: 100%;
+    float:left;
+    clear:both;
+    margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 640px)  {
+
+  header {
+    position: static;
+
+  }
+
+  #main-container {
+    width: 100%
+    padding: 20%;
+  }
+
+  .main-section {
+    width: 100%
+    margin: 100px 10px 30px 10px;
+    }
+
+  .auth-image {
+    width: 100%;
+  }
 }
